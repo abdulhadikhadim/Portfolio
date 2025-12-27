@@ -71,51 +71,27 @@ export default function Experience() {
 
   const experiences = [
     {
-      period: "2023 - Present",
-      title: "Senior AI/ML Engineer",
-      company: "Tech Innovations Lab",
-      description: "Leading AI research and development projects focused on natural language processing and machine learning applications. Developing cutting-edge solutions for text analysis, sentiment classification, and automated content generation.",
-      technologies: ["Python", "TensorFlow", "PyTorch", "BERT", "GPT", "LangChain"],
+      period: "08/07/2024 – Present",
+      title: "AI Engineer",
+      company: "CureMD – Lahore, Pakistan",
+      description: "Designed and developed a next-generation AI-powered medical search engine, inspired by Perplexity, to serve healthcare professionals, patients, researchers, and pharmaceutical experts. Implemented a multi-model routing system featuring a Super Router to dynamically classify queries and direct them to the most relevant large language model (LLM) for accurate responses.",
+      technologies: ["Python", "Angular", "FastAPI", "LLM", "LangChain", "LangGraph"],
       achievements: [
-        "Improved model accuracy by 25% through advanced fine-tuning techniques",
-        "Led a team of 5 engineers in developing enterprise AI solutions",
-        "Published 3 research papers on NLP applications"
+        "Developed an Angular-based conversational interface with FastAPI integration",
+        "Integrated multiple domain-specific back-end AI agents including Clinical Trials, Real-World Evidence Querying, Treatment Plan Agent, and Assessment Agent",
+        "Improved information retrieval efficiency and enhanced user accessibility across healthcare use cases"
       ]
     },
     {
-      period: "2021 - 2023",
-      title: "Machine Learning Engineer",
-      company: "DataVision Solutions",
-      description: "Specialized in developing predictive models and data analysis systems for business intelligence. Implemented end-to-end ML pipelines and automated feature engineering processes.",
-      technologies: ["Python", "Scikit-learn", "Pandas", "Apache Spark", "MLflow", "Docker"],
+      period: "Training Period",
+      title: "AI Engineer Trainee",
+      company: "CureMD – Lahore, Pakistan",
+      description: "Completed 30+ MOOCs covering core and advanced topics such as Mathematics for AI, Advanced Data Structures, Classical Machine Learning, Knowledge Graphs, and Data Science. Led three major projects during the training phase, focusing on Data Science, Deep Learning, and Classical Machine Learning applications.",
+      technologies: ["Python", "Machine Learning", "Deep Learning", "Data Science", "Mathematics for AI"],
       achievements: [
-        "Reduced model training time by 40% through pipeline optimization",
-        "Developed automated feature selection algorithms",
-        "Deployed 15+ ML models to production environments"
-      ]
-    },
-    {
-      period: "2019 - 2021",
-      title: "Data Scientist",
-      company: "Analytics Pro",
-      description: "Focused on data analysis, statistical modeling, and business intelligence solutions. Created comprehensive dashboards and reporting systems for executive decision-making.",
-      technologies: ["Python", "R", "SQL", "Tableau", "Power BI", "MongoDB"],
-      achievements: [
-        "Increased revenue predictions accuracy by 30%",
-        "Built interactive dashboards serving 100+ users",
-        "Conducted A/B testing for product optimization"
-      ]
-    },
-    {
-      period: "2018 - 2019",
-      title: "Junior Data Analyst",
-      company: "StartupTech",
-      description: "Entry-level position focusing on data collection, cleaning, and basic analysis. Gained foundational experience in statistical analysis and data visualization.",
-      technologies: ["Python", "Excel", "SQL", "Matplotlib", "Seaborn"],
-      achievements: [
-        "Automated data collection processes saving 20 hours/week",
-        "Created standardized reporting templates",
-        "Completed advanced certifications in data science"
+        "Achieved First Position in the Data Science project titled 'Trend Event Pattern Mining'",
+        "Recognized for excellence in data analysis, pattern detection, and predictive modeling",
+        "Completed comprehensive training program in AI and healthcare applications"
       ]
     }
   ];

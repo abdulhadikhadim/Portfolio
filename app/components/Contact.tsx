@@ -11,6 +11,11 @@ export default function Contact() {
     email: '',
     message: ''
   });
+  
+  const validateEmail = (email: string) => {
+    const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return re.test(email);
+  };
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState('');
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -105,44 +110,81 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Validate required fields
+    if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
+      setSubmitStatus('Please fill in all required fields.');
+      return;
+    }
+    
+    // Validate email format
+    if (!validateEmail(formData.email)) {
+      setSubmitStatus('Please enter a valid email address.');
+      return;
+    }
+    
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    // In a real application, you would send the email to your address here
+    // This is a mock implementation that simulates sending an email
+    try {
+      // Simulate API call to send email
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      
+      // In a real implementation, you would call your backend API to send the email
+      // Example: await sendEmail(formData.name, formData.email, formData.message);
+      
       setIsSubmitting(false);
       setSubmitStatus('Thank you for your message! I will get back to you soon.');
       setFormData({ name: '', email: '', message: '' });
-    }, 2000);
+    } catch (error) {
+      setIsSubmitting(false);
+      setSubmitStatus('There was an error sending your message. Please try again later.');
+    }
   };
 
   const contactMethods = [
     {
       icon: 'ri-mail-line',
       title: 'Email',
-      value: 'abdulhadi@example.com',
-      link: 'mailto:abdulhadi@example.com',
+      value: 'abhadi027@gmail.com',
+      link: 'mailto:abhadi027@gmail.com',
       color: 'cyan'
     },
     {
       icon: 'ri-linkedin-fill',
       title: 'LinkedIn',
       value: 'linkedin.com/in/abdulhadi111',
-      link: 'https://linkedin.com/in/abdulhadi111',
+      link: 'https://www.linkedin.com/in/abdulhadi111/',
       color: 'blue'
     },
     {
       icon: 'ri-github-fill',
       title: 'GitHub',
-      value: 'github.com/abdulhadi',
-      link: 'https://github.com/abdulhadi',
+      value: 'github.com/abdulhadikhadim',
+      link: 'https://github.com/abdulhadikhadim',
       color: 'purple'
     },
     {
-      icon: 'ri-map-pin-line',
-      title: 'Location',
-      value: 'Lahore, Pakistan',
-      link: '#',
+      icon: 'ri-phone-line',
+      title: 'Phone',
+      value: '(+92) 3152031419',
+      link: 'tel:+923152031419',
       color: 'green'
+    },
+    {
+      icon: 'ri-phone-fill',
+      title: 'Mobile',
+      value: '(+92) 3032031920',
+      link: 'tel:+923032031920',
+      color: 'yellow'
+    },
+    {
+      icon: 'ri-map-pin-line',
+      title: 'Address',
+      value: 'Bahawalpur, Pakistan',
+      link: '#',
+      color: 'red'
     }
   ];
 

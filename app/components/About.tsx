@@ -98,9 +98,9 @@ export default function About() {
 
   const skills = [
     { icon: 'ri-brain-line', title: 'Machine Learning', desc: 'Deep learning, neural networks, predictive modeling', color: 'cyan' },
-    { icon: 'ri-chat-3-line', title: 'NLP', desc: 'Text processing, sentiment analysis, language models', color: 'blue' },
-    { icon: 'ri-settings-3-line', title: 'Engineering', desc: 'Electrical engineering, signal processing, systems design', color: 'purple' },
-    { icon: 'ri-lightbulb-line', title: 'Innovation', desc: 'Problem-solving, research, cutting-edge solutions', color: 'green' }
+    { icon: 'ri-chat-3-line', title: 'AI Engineering', desc: 'Multi-model routing, AI agents, LLM integration', color: 'blue' },
+    { icon: 'ri-settings-3-line', title: 'Healthcare AI', desc: 'Medical search engines, clinical support systems', color: 'purple' },
+    { icon: 'ri-lightbulb-line', title: 'Data Science', desc: 'Analytics, ETL pipelines, pattern mining', color: 'green' }
   ];
 
   return (
@@ -123,7 +123,7 @@ export default function About() {
           <div>
             <img 
               data-animate-id="about-image"
-              src="https://readdy.ai/api/search-image?query=Professional%20software%20engineer%20working%20with%20artificial%20intelligence%20and%20machine%20learning%20code%20on%20multiple%20monitors%2C%20dark%20modern%20office%20setup%20with%20neural%20network%20diagrams%20and%20data%20visualization%20displays%2C%20black%20workspace%20with%20cyan%20and%20blue%20lighting%2C%20focused%20developer%20programming%20AI%20algorithms%2C%20high-tech%20development%20environment%20with%20dark%20theme&width=600&height=400&seq=about-work-dark-1&orientation=landscape"
+              src="/Abdulhadi.png"
               alt="Abdul Hadi working"
               className="rounded-lg shadow-xl shadow-cyan-500/20 w-full object-cover object-top hover:scale-105 transition-transform duration-500 opacity-0"
             />
@@ -134,25 +134,25 @@ export default function About() {
               data-animate-id="about-content-title"
               className="text-2xl font-bold text-white mb-6 opacity-0"
             >
-              Passionate AI Engineer from Lahore
+              Passionate AI Engineer from Pakistan
             </h3>
             <p 
               data-animate-id="about-content-text"
               className="text-gray-300 mb-6 leading-relaxed opacity-0"
             >
-              I am Abdul Hadi, a dedicated AI/NLP/ML professional based in Lahore, Pakistan, with a strong background in electrical engineering. My expertise spans across natural language processing, machine learning, and developing innovative solutions that bridge the gap between complex algorithms and real-world applications.
+              I am Abdul Hadi, an AI Engineer based in Lahore, Pakistan, with a strong background in Electrical Engineering. My expertise spans across machine learning, deep learning, and developing innovative AI solutions that bridge the gap between complex algorithms and real-world applications, particularly in the healthcare domain.
             </p>
             <p 
               data-animate-id="about-content-text"
               className="text-gray-300 mb-6 leading-relaxed opacity-0"
             >
-              With a passion for solving challenging problems through technology, I specialize in creating intelligent systems that can understand, process, and generate human language. My work focuses on developing cutting-edge solutions in sentiment analysis, question-answering systems, and predictive modeling.
+              Currently working as an AI Engineer at CureMD, I have developed a next-generation AI-powered medical search engine and implemented multi-model routing systems. I have experience in building domain-specific AI agents, predictive analytics models, and data mining algorithms for healthcare applications.
             </p>
             <p 
               data-animate-id="about-content-text"
               className="text-gray-300 mb-8 leading-relaxed opacity-0"
             >
-              I believe in the power of artificial intelligence to transform industries and improve lives. Through continuous learning and hands-on experience, I strive to push the boundaries of what's possible in the field of AI and machine learning.
+              I have completed 30+ MOOCs covering core and advanced topics such as Mathematics for AI, Advanced Data Structures, Classical Machine Learning, Knowledge Graphs, and Data Science. I have also achieved First Position in a Data Science project titled "Trend Event Pattern Mining".
             </p>
             
             <div className="grid grid-cols-2 gap-6">

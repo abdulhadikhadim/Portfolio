@@ -72,57 +72,57 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Sentiment Analysis Engine",
-      description: "Advanced NLP system for real-time sentiment analysis of social media data using transformer models and deep learning techniques.",
-      tech: ["Python", "TensorFlow", "BERT", "FastAPI"],
-      image: "https://readdy.ai/api/search-image?query=Advanced%20sentiment%20analysis%20dashboard%20showing%20real-time%20social%20media%20emotion%20detection%2C%20dark%20interface%20with%20colorful%20sentiment%20indicators%2C%20neural%20network%20visualization%2C%20data%20processing%20graphs%2C%20modern%20AI%20analytics%20interface%20with%20dark%20theme%20and%20cyan%20accents&width=600&height=400&seq=sentiment-analysis-1&orientation=landscape",
+      title: "ClarosMed – Intelligent Medical Search Engine",
+      description: "Designed and developed a next-generation AI-powered medical search engine, inspired by Perplexity, to serve healthcare professionals, patients, researchers, and pharmaceutical experts. Implemented a multi-model routing system featuring a Super Router to dynamically classify queries and direct them to the most relevant large language model (LLM) for accurate responses.",
+      tech: ["Python", "Angular", "FastAPI", "LLM", "LangChain", "LangGraph"],
+      image: "https://readdy.ai/api/search-image?query=AI%20medical%20search%20engine%20interface%2C%20healthcare%20search%20system%2C%20intelligent%20medical%20search%20platform%2C%20doctor%20using%20AI%20search%20tool%2C%20medical%20research%20database%2C%20healthcare%20AI%20application%2C%20dark%20theme%20with%20cyan%20and%20blue%20accents%2C%20medical%20visualization&width=600&height=400&seq=medical-search-1&orientation=landscape",
       github: "#",
       live: "#"
     },
     {
-      title: "Question Answering System",
-      description: "Intelligent QA system capable of understanding context and providing accurate answers from large document collections.",
-      tech: ["Python", "LangChain", "OpenAI", "Vector DB"],
-      image: "https://readdy.ai/api/search-image?query=Question%20answering%20AI%20system%20interface%20showing%20document%20analysis%20and%20intelligent%20responses%2C%20dark%20modern%20UI%20with%20question%20input%20and%20answer%20display%2C%20knowledge%20base%20visualization%2C%20search%20results%20with%20relevance%20scores%2C%20professional%20AI%20interface%20design&width=600&height=400&seq=qa-system-1&orientation=landscape",
+      title: "Public Health Intelligence System",
+      description: "Led the design and development of a data analytics and disease forecasting platform for monitoring chronic health trends across state, county, and city levels in the United States. Performed large-scale data analysis on 600,000+ patient records to detect chronic disease prevalence and high-risk population clusters.",
+      tech: ["Python", "FastAPI", "Angular", "Machine Learning", "Pandas", "Scikit-learn"],
+      image: "https://readdy.ai/api/search-image?query=Public%20health%20intelligence%20dashboard%2C%20disease%20forecasting%20system%2C%20healthcare%20data%20analytics%2C%20epidemiological%20data%20visualization%2C%20medical%20data%20dashboard%2C%20disease%20prediction%20analytics%2C%20healthcare%20data%20platform%2C%20dark%20theme%20with%20cyan%20and%20blue%20accents%2C%20medical%20visualizations&width=600&height=400&seq=health-intelligence-1&orientation=landscape",
       github: "#",
       live: "#"
     },
     {
-      title: "Predictive Analytics Platform",
-      description: "Machine learning platform for business forecasting and predictive modeling with automated feature engineering.",
-      tech: ["Python", "Scikit-learn", "Pandas", "Plotly"],
-      image: "https://readdy.ai/api/search-image?query=Predictive%20analytics%20dashboard%20with%20machine%20learning%20forecasting%20charts%2C%20business%20intelligence%20interface%2C%20time%20series%20predictions%2C%20automated%20feature%20engineering%20visualization%2C%20dark%20theme%20with%20data%20visualization%20graphs%20and%20metrics&width=600&height=400&seq=predictive-analytics-1&orientation=landscape",
+      title: "Treatment Efficacy – Trend Event Pattern Mining",
+      description: "Developed a trend event pattern-mining algorithm to evaluate medication efficacy using longitudinal lab results and vital-sign data. Designed temporal analysis pipelines linking medication encounters with patient-specific lab trajectories to detect statistically significant improvements post-treatment.",
+      tech: ["Python", "Pandas", "Scikit-learn", "Data Analysis", "Machine Learning"],
+      image: "https://readdy.ai/api/search-image?query=Treatment%20efficacy%20analysis%20dashboard%2C%20medical%20treatment%20evaluation%2C%20patient%20data%20analysis%2C%20trend%20event%20pattern%20mining%2C%20medication%20efficacy%20dashboard%2C%20healthcare%20data%20analytics%2C%20patient%20outcome%20assessment%2C%20dark%20theme%20with%20cyan%20and%20blue%20accents%2C%20medical%20visualizations&width=600&height=400&seq=treatment-efficacy-1&orientation=landscape",
       github: "#",
       live: "#"
     },
     {
-      title: "Neural Network Optimizer",
-      description: "Custom neural network optimization tools for hyperparameter tuning and model performance enhancement.",
-      tech: ["Python", "PyTorch", "Optuna", "MLflow"],
-      image: "https://readdy.ai/api/search-image?query=Neural%20network%20optimization%20interface%20showing%20hyperparameter%20tuning%20results%2C%20model%20performance%20metrics%2C%20training%20progress%20visualization%2C%20optimization%20algorithms%20comparison%2C%20dark%20scientific%20interface%20with%20performance%20graphs&width=600&height=400&seq=neural-optimizer-1&orientation=landscape",
+      title: "Disease Outbreak Prediction & Detection System",
+      description: "Developed a two-stage machine learning framework to detect and forecast abnormal spikes in disease encounters using historical epidemiological data. Built supervised classification models (Random Forest, XGBoost) to identify anomalous patient-encounter clusters signaling potential outbreaks.",
+      tech: ["Python", "Machine Learning", "XGBoost", "Random Forest", "LangGraph", "Time Series"],
+      image: "https://readdy.ai/api/search-image?query=Disease%20outbreak%20prediction%20system%2C%20epidemiological%20data%20analysis%2C%20outbreak%20detection%20dashboard%2C%20healthcare%20surveillance%20system%2C%20disease%20forecasting%20platform%2C%20public%20health%20monitoring%2C%20dark%20theme%20with%20cyan%20and%20blue%20accents%2C%20medical%20visualizations&width=600&height=400&seq=outbreak-prediction-1&orientation=landscape",
       github: "#",
       live: "#"
     },
     {
-      title: "Text Classification API",
-      description: "RESTful API for multi-class text classification with support for custom model training and deployment.",
-      tech: ["Python", "FastAPI", "Docker", "AWS"],
-      image: "https://readdy.ai/api/search-image?query=Text%20classification%20API%20interface%20showing%20document%20categorization%20results%2C%20classification%20confidence%20scores%2C%20API%20endpoint%20documentation%2C%20text%20processing%20pipeline%20visualization%2C%20dark%20developer%20interface%20with%20code%20examples&width=600&height=400&seq=text-classification-1&orientation=landscape",
+      title: "Lake Preprocessors Package",
+      description: "Built an internal Python package for automated data cleansing and transformation on Delta Lake tables, minimizing ETL code complexity and dependency overhead. Designed reusable PySpark modules for schema validation, deduplication, and normalization.",
+      tech: ["Python", "PySpark", "Delta Lake", "ETL", "Data Engineering"],
+      image: "https://readdy.ai/api/search-image?query=Data%20preprocessing%20package%2C%20ETL%20pipeline%20visualization%2C%20Delta%20Lake%20data%20processing%2C%20PySpark%20data%20engine%2C%20data%20cleansing%20tool%2C%20automated%20data%20transformation%2C%20data%20engineering%20toolkit%2C%20dark%20theme%20with%20cyan%20and%20blue%20accents%2C%20data%20flow%20visualizations&width=600&height=400&seq=data-preprocessing-1&orientation=landscape",
       github: "#",
       live: "#"
     },
     {
-      title: "AI Chatbot Framework",
-      description: "Conversational AI framework with natural language understanding and context-aware response generation.",
-      tech: ["Python", "Rasa", "spaCy", "Redis"],
-      image: "https://readdy.ai/api/search-image?query=AI%20chatbot%20framework%20interface%20showing%20conversation%20flow%2C%20natural%20language%20understanding%20components%2C%20intent%20recognition%20results%2C%20context%20management%20system%2C%20dark%20chat%20interface%20with%20AI%20response%20generation&width=600&height=400&seq=chatbot-framework-1&orientation=landscape",
+      title: "Healthcare Code Mapping Enhancements",
+      description: "Developed a scalable medical code mapping framework supporting multiple healthcare coding standards (ICD, GPI, IMO, CPT, NDC) to ensure interoperability across clinical systems. Implemented bidirectional translation algorithms enabling seamless conversion between free-text clinical terms and standardized medical codes.",
+      tech: ["Python", "FastAPI", "Healthcare Standards", "API Development", "Data Mapping"],
+      image: "https://readdy.ai/api/search-image?query=Healthcare%20code%20mapping%20system%2C%20medical%20coding%20standards%2C%20ICD%20code%20mapping%2C%20clinical%20terminology%20translation%2C%20medical%20code%20interoperability%2C%20healthcare%20data%20mapping%2C%20clinical%20system%20integration%2C%20dark%20theme%20with%20cyan%20and%20blue%20accents%2C%20medical%20visualizations&width=600&height=400&seq=healthcare-mapping-1&orientation=landscape",
       github: "#",
       live: "#"
     }
   ];
 
   return (
-    <section ref={sectionRef} id="projects" className="py-20 bg-gray-900">
+    <section ref={sectionRef} id="projects" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 
@@ -161,8 +161,9 @@ export default function Projects() {
                   {project.tech.map((tech) => (
                     <span 
                       key={tech}
-                      className="px-3 py-1 bg-gray-800 text-cyan-400 text-xs rounded-full border border-gray-600"
+                      className="px-3 py-1 bg-gray-800 text-cyan-400 text-xs rounded-full border border-gray-600 flex items-center gap-1 whitespace-nowrap"
                     >
+                      <i className="ri-code-s-slash-line text-xs"></i>
                       {tech}
                     </span>
                   ))}

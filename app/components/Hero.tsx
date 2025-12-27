@@ -109,7 +109,7 @@ export default function Hero() {
   }, []);
 
   const techStack = [
-    'Angular', 'React JS', 'TypeScript', 'ML', 'DL', 'NLP', 'LangChain', 'Agents'
+    'Python', 'JavaScript', 'SQL', 'C++', 'R', 'Angular', 'React', 'PyTorch', 'LangChain', 'LangGraph', 'FastAPI', 'Scikit-Learn', 'Pandas', 'TensorFlow', 'OpenCV', 'RAG', 'Matplotlib'
   ];
 
   return (
@@ -142,14 +142,14 @@ export default function Hero() {
               data-animate-id="hero-subtitle"
               className="text-2xl md:text-3xl text-gray-300 font-light opacity-0"
             >
-              AI/NLP/ML Engineer
+              AI Engineer
             </h2>
             
             <p 
               data-animate-id="hero-description"
               className="text-lg text-gray-400 leading-relaxed max-w-2xl opacity-0"
             >
-              Passionate about creating intelligent systems that bridge the gap between human language and machine understanding. Specialized in developing cutting-edge AI solutions.
+              AI Engineer with expertise in developing next-generation AI-powered medical search engines, predictive analytics systems, and intelligent healthcare solutions. Currently working at CureMD in Lahore, Pakistan.
             </p>
 
             {/* Tech Stack */}
@@ -158,8 +158,9 @@ export default function Hero() {
                 <span 
                   key={tech}
                   data-animate-id="tech-badge"
-                  className="px-4 py-2 bg-gray-800/50 border border-gray-700 rounded-full text-sm text-gray-300 hover:border-cyan-500 hover:text-cyan-400 transition-all duration-300 cursor-pointer opacity-0"
+                  className="px-4 py-2 bg-gray-800/50 border border-gray-700 rounded-full text-sm text-gray-300 hover:border-cyan-500 hover:text-cyan-400 transition-all duration-300 cursor-pointer opacity-0 flex items-center gap-2"
                 >
+                  <i className="ri-code-s-slash-line text-cyan-400"></i>
                   {tech}
                 </span>
               ))}
@@ -170,10 +171,26 @@ export default function Hero() {
               data-animate-id="hero-buttons"
               className="flex flex-wrap gap-4 mt-8 opacity-0"
             >
-              <button className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-lg font-medium hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/25 whitespace-nowrap cursor-pointer">
+              <button 
+                onClick={() => {
+                  const projectsSection = document.getElementById('projects');
+                  if (projectsSection) {
+                    projectsSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-lg font-medium hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/25 whitespace-nowrap cursor-pointer"
+              >
                 View My Work
               </button>
-              <button className="px-8 py-4 border-2 border-gray-700 text-gray-300 rounded-lg font-medium hover:border-cyan-500 hover:text-cyan-400 transition-all duration-300 transform hover:scale-105 whitespace-nowrap cursor-pointer">
+              <button 
+                onClick={() => {
+                  const contactSection = document.getElementById('contact');
+                  if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="px-8 py-4 border-2 border-gray-700 text-gray-300 rounded-lg font-medium hover:border-cyan-500 hover:text-cyan-400 transition-all duration-300 transform hover:scale-105 whitespace-nowrap cursor-pointer"
+              >
                 Get In Touch
               </button>
             </div>
@@ -183,10 +200,10 @@ export default function Hero() {
               data-animate-id="social-links"
               className="flex gap-6 mt-8 opacity-0"
             >
-              <a href="#" className="w-12 h-12 bg-gray-800/50 border border-gray-700 rounded-full flex items-center justify-center hover:border-cyan-500 hover:bg-cyan-500/10 transition-all duration-300 transform hover:scale-110 cursor-pointer">
+              <a href="https://www.linkedin.com/in/abdulhadi111/" className="w-12 h-12 bg-gray-800/50 border border-gray-700 rounded-full flex items-center justify-center hover:border-cyan-500 hover:bg-cyan-500/10 transition-all duration-300 transform hover:scale-110 cursor-pointer">
                 <i className="ri-linkedin-fill text-xl text-gray-400 hover:text-cyan-400"></i>
               </a>
-              <a href="#" className="w-12 h-12 bg-gray-800/50 border border-gray-700 rounded-full flex items-center justify-center hover:border-cyan-500 hover:bg-cyan-500/10 transition-all duration-300 transform hover:scale-110 cursor-pointer">
+              <a href="https://github.com/abdulhadikhadim" className="w-12 h-12 bg-gray-800/50 border border-gray-700 rounded-full flex items-center justify-center hover:border-cyan-500 hover:bg-cyan-500/10 transition-all duration-300 transform hover:scale-110 cursor-pointer">
                 <i className="ri-github-fill text-xl text-gray-400 hover:text-cyan-400"></i>
               </a>
               <a href="#" className="w-12 h-12 bg-gray-800/50 border border-gray-700 rounded-full flex items-center justify-center hover:border-cyan-500 hover:bg-cyan-500/10 transition-all duration-300 transform hover:scale-110 cursor-pointer">
@@ -203,8 +220,8 @@ export default function Hero() {
             <div className="relative">
               <img 
                 data-animate-id="hero-image"
-                src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20Abdul%20Hadi%2C%20AI%20and%20machine%20learning%20engineer%2C%20confident%20expression%2C%20dark%20modern%20background%20with%20subtle%20tech%20elements%2C%20professional%20headshot%20with%20soft%20lighting%2C%20dark%20theme%20with%20cyan%20and%20blue%20accents%2C%20clean%20minimalist%20style%2C%20high-quality%20portrait%20photography&width=400&height=400&seq=hero-portrait-1&orientation=squarish"
-                alt="Abdul Hadi - AI/NLP/ML Engineer"
+                src="/Abdulhadi.png"
+                alt="Abdul Hadi - AI Engineer"
                 className="w-80 h-80 rounded-full object-cover object-top shadow-2xl shadow-cyan-500/30 border-4 border-gray-800 hover:scale-105 transition-transform duration-500 opacity-0"
               />
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full blur opacity-20 animate-pulse"></div>

@@ -99,14 +99,14 @@ export default function Education() {
           </div>
           
           <div>
-            <div className="education-card bg-gray-900/50 border border-gray-700 rounded-lg p-8 hover:border-cyan-500 hover:bg-cyan-500/5 transition-all duration-300 opacity-0">
+            <div className="education-card bg-gray-900/50 border border-gray-700 rounded-lg p-8 hover:border-cyan-500 hover:bg-cyan-500/5 transition-all duration-300 opacity-0 mb-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 flex items-center justify-center bg-cyan-500/20 rounded-full mr-4">
                   <i className="ri-graduation-cap-line text-2xl text-cyan-400"></i>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white">Bachelor's in Electrical Engineering</h3>
-                  <p className="text-cyan-300">University of Engineering & Technology, Lahore</p>
+                  <h3 className="text-2xl font-bold text-white">Bachelor's of Science in Electrical Engineering</h3>
+                  <p className="text-cyan-300">Ghulam Ishaq Khan Institute of Engineering Sciences and Technology</p>
                 </div>
               </div>
               
@@ -115,19 +115,19 @@ export default function Education() {
                   <div className="w-4 h-4 flex items-center justify-center mr-2">
                     <i className="ri-calendar-line text-cyan-400"></i>
                   </div>
-                  <span className="text-gray-300">2018 - 2022</span>
+                  <span className="text-gray-300">28/09/2020 – 25/05/2024</span>
                 </div>
                 <div className="flex items-center mb-2">
                   <div className="w-4 h-4 flex items-center justify-center mr-2">
                     <i className="ri-star-line text-yellow-400"></i>
                   </div>
-                  <span className="text-gray-300">CGPA: 3.7/4.0</span>
+                  <span className="text-gray-300">Level in EQF: EQF level 6</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-4 h-4 flex items-center justify-center mr-2">
                     <i className="ri-medal-line text-cyan-400"></i>
                   </div>
-                  <span className="text-gray-300">Magna Cum Laude</span>
+                  <span className="text-gray-300">Location: Topi, Pakistan</span>
                 </div>
               </div>
               
@@ -142,6 +142,39 @@ export default function Education() {
                       {course}
                     </div>
                   ))}
+                </div>
+              </div>
+            </div>
+            
+            <div className="education-card bg-gray-900/50 border border-gray-700 rounded-lg p-8 hover:border-cyan-500 hover:bg-cyan-500/5 transition-all duration-300 opacity-0">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 flex items-center justify-center bg-cyan-500/20 rounded-full mr-4">
+                  <i className="ri-graduation-cap-line text-2xl text-cyan-400"></i>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-white">Intermediate Secondary Education</h3>
+                  <p className="text-cyan-300">Punjab Group of Colleges</p>
+                </div>
+              </div>
+              
+              <div className="mb-6">
+                <div className="flex items-center mb-2">
+                  <div className="w-4 h-4 flex items-center justify-center mr-2">
+                    <i className="ri-calendar-line text-cyan-400"></i>
+                  </div>
+                  <span className="text-gray-300">06/08/2018 – 10/07/2020</span>
+                </div>
+                <div className="flex items-center mb-2">
+                  <div className="w-4 h-4 flex items-center justify-center mr-2">
+                    <i className="ri-star-line text-yellow-400"></i>
+                  </div>
+                  <span className="text-gray-300">Level in EQF: EQF level 4</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 flex items-center justify-center mr-2">
+                    <i className="ri-medal-line text-cyan-400"></i>
+                  </div>
+                  <span className="text-gray-300">Location: Bahawalpur, Pakistan</span>
                 </div>
               </div>
             </div>
